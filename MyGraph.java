@@ -179,7 +179,7 @@ public class MyGraph implements Graph {
 
         long end = System.nanoTime();
         long diff = end - begin;
-        
+
         System.out.println("Duration: " + diff + "ns < 1 min. : " + (diff < (6*Math.pow(10,10))));
     }
 

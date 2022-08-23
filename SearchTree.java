@@ -43,7 +43,7 @@ public class SearchTree {
         } else if (i.G.degree(v) > i.k) {
             removeHighDeg(i1);
         } else {
-                i1.G.deleteVertex(u);
+            i1.G.deleteVertex(u);
         }
 
         Instance i2 = new Instance(i.G.getCopy(), i.k-1);
